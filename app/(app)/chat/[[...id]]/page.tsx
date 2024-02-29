@@ -22,6 +22,7 @@ const ChatPage = async ({params}:{params:{id:string}}) => {
        w-10/12 md:w-full h-[10vh] md:h-[100vh] "
       >
         <ChatHero />
+
       </div>
       <div className="relative h-[85vh] pt-8 md:pt-0 md:h-full basis-2/3 flex flex-col items-center mx-auto gap-8 w-full">
         <div className="h-[70vh] w-10/12 overflow-auto md:mx-20 flex flex-col-reverse bottom-0  dark:bg-grid-white/[0.2] bg-grid-black/[0.2] rounded-lg ">
